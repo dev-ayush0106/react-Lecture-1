@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .card{
+        width: 300px;
+        height: 600px;
+        background-color: aqua;
+        border-radius: 40px;
+    }
+
+    .img-box{
+        width: 300px;
+        height: 250px;
+        background-color: bisque;
+        border-radius: 40px 40px 0px 0px;
+        background-image: url(PDP_SWITCH_BLACK1.webp);
+        background-size:cover;
+        transition: all 0.2s ease-in;
+    }
+
+    .img-box:hover{
+        background-image: url(hover.webp);
+        background-size: cover;
+    }
+
+    .des{
+        width: 300px;
+        height: 350px;
+        background-color: red;
+        border-radius: 0px 0px 40px 40px;
+    }
+</style>
+<body>
+    <div class="card">
+        <div class="img-box"></div>
+        <div class="des"></div>
+    </div>
+</body>
+</html>
