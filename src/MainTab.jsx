@@ -62,6 +62,7 @@ export default function MainTab(){
     let name="Ayush"
     let name1="Ashish"
     let name2="Arjun"
+    let greet="How are you?";
     return(
         <div>
             <h1>Details Of Student</h1>
@@ -76,10 +77,11 @@ export default function MainTab(){
            <Card detail={data9}/>
            <Card detail={data10}/>
            <Card detail={data11}/>
-            <Card1 n={name}/>
-            <Card1 n/>
-            <Card1 n/>
-            <Card1 n/>
+            <Card1 n={name} g={greet}/>
+            <Card1 g={greet}/>
+            <Card1 />
+            <Card1 />
+            <Card1 />
             <Card1 n={name1}/>
             <Card1 n={name2}/>
 

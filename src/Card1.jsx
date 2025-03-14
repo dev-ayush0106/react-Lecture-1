@@ -1,7 +1,7 @@
-export default function Card1({n}){
+export default function Card1({n="User",g}){
     return(
         <>
-            <h1>Hello , {n}</h1>
+            <h1>Hello , {n} , {g}</h1>
 
         </>
     )
