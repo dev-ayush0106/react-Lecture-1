@@ -4,6 +4,9 @@ import Events from './Events'
 import State from './State'
 import Like from './Like'
 import MainComponent from './MainComponent'
+import ThemeChange from './ThemeChange'
+import Hooks1 from './Hooks1'
+import Data from './Data'
 // import MainTab from './MainTab'
 
 
@@ -25,7 +28,7 @@ function App() {
 
     {/* <Events/> */}
 
-    <State/>
+    {/* <State/> */}
 
     {/* <h1>Hello</h1> */}
       
@@ -35,6 +38,11 @@ function App() {
     <MainComponent/>
     </Detail.Provider>
     */}
+
+    {/* <ThemeChange/> */}
+
+    {/* <Hooks1/> */}
+    <Data/>
   </div>
   )
   
