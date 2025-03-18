@@ -4,9 +4,12 @@ import Events from './Events'
 import State from './State'
 import Like from './Like'
 import MainComponent from './MainComponent'
-import ThemeChange from './ThemeChange'
+// import ThemeChange from './ThemeChange'
 import Hooks1 from './Hooks1'
 import Data from './Data'
+import { Reducer } from './Reducer'
+import Hooks2 from './Hooks2'
+import Refrence from './Refrence'
 // import MainTab from './MainTab'
 
 
@@ -42,7 +45,12 @@ function App() {
     {/* <ThemeChange/> */}
 
     {/* <Hooks1/> */}
-    <Data/>
+    {/* <Data/> */}
+
+    {/* <Reducer/> */}
+
+    {/* <Hooks2/> */}
+    <Refrence/>
   </div>
   )
   
